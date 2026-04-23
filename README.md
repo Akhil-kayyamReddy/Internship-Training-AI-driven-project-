@@ -1,4 +1,4 @@
-1. Dataset Selection  
+**1. Dataset Selection**  
 Selected Dataset 
 Dataset Name: SEC 10-K Financial Reports Dataset (from Data.gov / SEC EDGAR) 
 Format: PDF → processed into CSV + JSON (interoperable ) 
@@ -10,7 +10,7 @@ Source Example: NVIDIA 10-K report
 * High-dimensional (text + numerical + categorical) 
 * Real-world financial dataset (used in Fin Sight architecture)
 
-2. Dataset Description  
+**2. Dataset Description**  
 This dataset consists of annual financial reports (10-K filings) submitted by companies to the 
 SEC. 
 From the NVIDIA report: 
