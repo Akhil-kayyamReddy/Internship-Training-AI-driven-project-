@@ -1,20 +1,33 @@
-I am choosing the **COVID-19 Reported Patient Impact and Hospital Capacity by Facility Dataset**, which contains detailed information about hospital capacity and COVID-19 patient impact across different healthcare facilities. It includes more than 30 columns and is available in CSV/Excel format. The dataset provides information such as number of COVID patients, ICU bed availability, inpatient capacity, ventilator usage, staffing levels, and facility-level details over time.
+Dataset: **Financial Transaction Fraud Detection**
+
+I am choosing the Financial Transaction Fraud Detection Dataset, which contains information about money transfers between different accounts. It includes details such as transaction type, amount, sender and receiver information, and account balances before and after each transaction. The dataset is available in CSV format and is well-structured, making it easy to analyze and use for machine learning.
 
 **Problem Statement:**
-Build a predictive model to estimate hospital capacity utilization and predict potential overload based on historical COVID-19 data.
-Title: **"HOSPITAL CAPACITY PREDICTION SYSTEM"**
+
+Build a predictive model to identify whether a transaction is fraudulent or not based on historical transaction data.
+Analyze transaction patterns to detect unusual or suspicious behavior in financial activities.
+Identify key factors (such as transaction amount or balance changes) that contribute most to fraudulent transactions.
+Develop a model to classify high-risk and low-risk transactions for better monitoring.
+
+**Title: "FRAUD DETECTION SYSTEM"**
 
 **Main Goal:**
-The main goal of this project is to predict hospital resource demand and identify facilities that may face capacity shortages using past data.
 
-**Columns Impacting Project**:
-Time: Collection Date, Reporting Period
-Location: State, Facility Name, County
-Healthcare Indicators: ICU Beds, Inpatient Beds, Ventilator Usage, Staffing Levels
-Performance Indicators: COVID Patient Count, Bed Utilization Rate, Admission Trends
+The main goal of this project is to detect fraudulent transactions in advance and help prevent financial losses by analyzing past transaction patterns.
+The project also aims to highlight important factors that contribute to fraud, such as sudden changes in account balance or large transaction amounts
+
+**Columns Impacting Project:**
+
+Time: step
+Transaction Details: type, amount
+Sender Information: nameOrig, oldbalanceOrg, newbalanceOrig
+Receiver Information: nameDest, oldbalanceDest, newbalanceDest
+Target Variable: isFraud, isFlaggedFraud
 
 **Project Helpful For:**
-Healthcare authorities to manage hospital resources, government bodies to plan emergency responses, hospitals to optimize capacity, and policymakers to improve healthcare infrastructure.
+
+This project is helpful for banks and financial institutions to detect fraud quickly, reduce financial losses, and improve transaction security. It also helps customers by protecting their accounts from unauthorized activities.
 
 **Conclusion:**
-This project helps in understanding healthcare capacity patterns during pandemics and can be useful for improving resource allocation and emergency preparedness.
+
+This project helps in understanding transaction behavior and identifying suspicious activities. It can be useful for building secure and reliable fraud detection systems in the financial sector.
