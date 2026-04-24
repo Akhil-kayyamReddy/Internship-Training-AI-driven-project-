@@ -20,8 +20,11 @@ The project also aims to highlight important factors that contribute to fraud, s
 
 Time: step
 Transaction Details: type, amount
+
 Sender Information: nameOrig, oldbalanceOrg, newbalanceOrig
+
 Receiver Information: nameDest, oldbalanceDest, newbalanceDest
+
 Target Variable: isFraud, isFlaggedFraud
 
 **Project Helpful For:**
