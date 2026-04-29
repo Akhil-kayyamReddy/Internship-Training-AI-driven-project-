@@ -37,4 +37,4 @@ It helps in early disease prediction, biomarker identification, and improving me
 
 This project helps in understanding biological patterns hidden within gene expression data and identifying disease-related abnormalities. By applying machine learning algorithms, the system can accurately classify diseases and highlight important genetic features contributing to prediction. The project can support the development of intelligent healthcare systems and advanced medical research solutions.
 
-🧬 Tiny data-universe note: each gene column is like a microscopic signal beacon, and the model’s job is to decode which constellations of signals whisper “healthy” or “disease.”
+> Tiny data-universe note: each gene column is like a microscopic signal beacon, and the model’s job is to decode which constellations of signals whisper “healthy” or “disease.”
